@@ -1,8 +1,8 @@
 class Brief < Formula
   desc "Terminal-first chat client with slash commands and tool execution"
   homepage "https://github.com/WilliamAGH/brief"
-  url "https://github.com/WilliamAGH/brief/releases/download/v${VERSION}/brief-${VERSION}.zip"
-  sha256 "${SHA256}"
+  url "https://github.com/WilliamAGH/brief/releases/download/v0.1.0/brief-0.1.0.zip"
+  sha256 "45b4f66f8cd50f5556b696cecec8aece66a469e70a985ca1c27c3352892960cf"
   license "MIT"
 
   # Install latest from main branch: brew install --head williamagh/tap/brief
