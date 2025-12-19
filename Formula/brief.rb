@@ -33,12 +33,13 @@ class Brief < Formula
 
   def caveats
     <<~EOS
-      brief requires an API key to function. Set up your environment:
+      brief requires an API key to function.
 
-        cp #{opt_prefix}/.env-example ~/.config/brief/.env
-        # Edit ~/.config/brief/.env with your API key
+      Just run `brief` — the app will guide you through setup if no API key is configured.
 
-      Or set OPENAI_API_KEY in your shell profile.
+      Or configure manually:
+        export OPENAI_API_KEY="your-key-here"
+
       See: https://github.com/WilliamAGH/brief/blob/main/docs/environment-variables-api-keys.md
     EOS
   end
